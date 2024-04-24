@@ -1,0 +1,28 @@
+.payslip-list {
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  .cards-container {
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 300px;
+    padding: 20px;
+    margin: 500px;
+    color: #000;
+    border: 1px solid #8b7676;
+    background-color: rgb(69, 85, 99);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  

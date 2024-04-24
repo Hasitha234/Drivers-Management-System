@@ -1,0 +1,44 @@
+/* HomePage.css */
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/frontend/src/assets/b1.jpeg'); /* Path to your image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+.content {
+  text-align: center;
+}
+
+.main-heading {
+  margin-top: -30vh; /* Adjust for desired distance from top */
+  font-size: 50px; /* Adjust font size as needed */
+  text-align: center;
+  color: white;
+}
+
+.button-container {
+  margin-top: 10px; /* Adjust for desired distance from top */
+}
+
+.button {
+  padding: 60px 60px;
+  margin: 10px 300px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #120d0d;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
